@@ -1,7 +1,6 @@
 <template>
   <div class="app_container">
 
-
     <RouterView />
   </div><!-- app_container -->
 </template>
@@ -10,6 +9,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

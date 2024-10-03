@@ -9,7 +9,7 @@
     </main>
 
     <footer class="footer">
-      <p>Footer</p>
+
     </footer>
   </div><!-- home_container -->
 </template>
@@ -22,12 +22,14 @@ import ListPokemon from '@/components/pokemons/ListPokemon.vue'
 .home_container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto; /* Three rows: header, main, footer */
-  grid-template-areas: 
+  grid-template-rows: auto 1fr auto;
+  /* Three rows: header, main, footer */
+  grid-template-areas:
     "header"
     "main"
     "footer";
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
+  /* Full viewport height */
 }
 
 .header {
